@@ -5,6 +5,7 @@ body {
 }
 
 .wrapper {
+    padding: 23px 0;
     background-color: aquamarine;
     width: 700px;
     display:flex;

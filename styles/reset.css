@@ -142,3 +142,8 @@ a:link {
 a:visited {
   color: black;
 }
+
+button {
+  border: none;
+  padding: 10px 20px;
+}

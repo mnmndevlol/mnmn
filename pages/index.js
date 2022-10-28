@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Guest from "../components/guest";
+import Guest from "../components/Guest";
 import Logo from "../components/Logo";
 import Navigator from "../components/Navigator";
 import Recent from "../components/Recent";

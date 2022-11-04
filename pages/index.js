@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Guest from "../components/Guest";
 import Logo from "../components/Logo";
+import MainImage from "../components/Mainimage";
 import Navigator from "../components/Navigator";
 import Recent from "../components/Recent";
 import styles from "../styles/Home.module.css";
@@ -17,9 +18,7 @@ export default function Home() {
       <Logo />
       <div class="wrap">
         <Navigator />
-        <div class="main-image">
-          <img src="/images/main-image.png" />
-        </div>
+        <MainImage />
 
         <Recent />
         <Guest />

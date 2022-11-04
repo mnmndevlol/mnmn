@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Logo from "../components/Logo";
 import Navigator from "../components/Navigator";
+import TitleWrapper from "../components/TitleWrapper";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,20 +17,7 @@ export default function Home() {
       <div class="wrap">
         <Logo />
         <Navigator />
-
-        <div class="title-wrapeer">
-          <div class="profile-image">
-            <img src="images/Ellipse-1.png" />
-          </div>
-          <div class="text-area">
-            <div class="title">제목은 여기 들어가 있습니다</div>
-            <div class="info">
-              <div class="author">by amdin</div>
-              <div class="date">2021.12.25</div>
-            </div>
-          </div>
-        </div>
-
+        <TitleWrapper />
         <div class="image-area">
           <img src="images/iiii.png" />
         </div>

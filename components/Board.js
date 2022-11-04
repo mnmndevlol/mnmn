@@ -1,3 +1,9 @@
+import styled from "@emotion/styled";
+
+const MainImageBlock = styled.div`
+  margin-bottom: 47px;
+`;
+
 const Board = () => {
   return (
     <div class="recent-wrap">

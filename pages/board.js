@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import ListWrapper from "../components/ListWrapper";
+import Logo from "../components/Logo";
 import Navigator from "../components/Navigator";
 import styles from "../styles/Home.module.css";
 
@@ -13,22 +15,22 @@ export default function Home() {
       </Head>
 
       <div class="wrapper">
-        <div class="logo"></div>
+        <Logo />
         <Navigator />
-
-        <div class="listWrapper">
-          <div class="author"></div>
-          <div class="createDate"></div>
-          <div class="postImage">
-            <img src="images/Rectangle-16.png" />
-          </div>
-          <div class="title">제목은 여기 들어가 있습니다.</div>
-          <div class="content">
-            이것은 훅텍스트 입니다. 요약을 해주는 글 입니다. 여기에 내용이 다
-            들어가면 예쁘지 않아서 그냥 훅텍스트로만 사용합니다.
-          </div>
-          <button class="readmore">더보기 ...</button>
-        </div>
+        <ListWrapper
+          title="글 1 입니다."
+          content="1"
+          date="2022.11.11"
+          author="김김김"
+          imageUrl="images/Rectangle-16.png"
+        />
+        <ListWrapper
+          title="글 2 입니다."
+          content="2"
+          date="2023.11.12"
+          author="박박박"
+          imageUrl="images/Rectangle-17.png"
+        />
       </div>
     </div>
   );
